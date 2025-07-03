@@ -1,3 +1,6 @@
+![image](https://github.com/user-attachments/assets/b36fe05f-ed35-46a2-93b6-c84d38bda2c1)
+
+
 # Análisis Exploratorio de Datos (EDA) sobre crímenes en Los Ángeles desde 2020
 
 #### Descripción del Proyecto
