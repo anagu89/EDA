@@ -15,6 +15,12 @@ Análisis comparativo de los datos:
 📍 Lugar del delito  
 
 ---
+#### 🧩 Hipótesis   
+1. Se cometen más crímenes en verano.
+2. Se cometen más crímenes por la noche.
+3. El crimen que mas se repite es el robo.
+
+---
 #### 🎯 Objetivos
 🗺️ Identificar las zonas donde más crímenes se cometen y si tiene relación con el tipo de crimen.  
 🌞🌙 Ver si la hora del día y época del año influyen en los delitos.  
