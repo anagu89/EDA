@@ -16,9 +16,11 @@ Análisis comparativo de los datos:
 
 ---
 #### ❓ Hipótesis   
-1. Se cometen más crímenes en verano.
-2. Se cometen más crímenes por la noche.
-3. El crimen que mas se repite es el robo.
+1. Se cometen más crímenes en verano 🌞.
+2. Se cometen más crímenes por la noche 🌙.
+3. Se cometen más crímeres los fines de semana 🌳.
+4. Las víctimas suelen ser mujeres ♀️.
+5. El crimen que mas se repite es el robo 🔪.
 
 ---
 #### 🎯 Objetivos
