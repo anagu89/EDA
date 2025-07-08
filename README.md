@@ -19,8 +19,9 @@ Análisis comparativo de los datos:
 1. Se cometen más crímenes en verano 🌞.
 2. Se cometen más crímenes por la noche 🌙.
 3. Se cometen más crímeres los fines de semana 🌳.
-4. Las víctimas suelen ser mujeres ♀️.
-5. El crimen que mas se repite es el robo 🔪.
+4. ¿Hay relación entre fines de semana y la edad de la víctima? 🌳🙍
+5. Las víctimas suelen ser mujeres ♀️.
+6. El crimen que mas se repite es el robo 🔪.
 
 ---
 #### 🎯 Objetivos
@@ -35,15 +36,17 @@ Estos datos, por tanto, son lo suficientemente reales como para no tener dudas d
   
 🔗 [Dataset](https://data.lacity.org/Public-Safety/Crime-Data-from-2010-to-2019/63jg-8b9z/about_data)  
 
+Como el archivo es demasiado pesado, dejo un ejemplo del dataset con 1000 filas llamado "df_ejemplo.csv".
+
 ---
 #### 🛠️ Herramientas Utilizadas
 
 💻 Python: Para análisis de datos y visualización.  
-📚 Librerías: Pandas, Matplotlib, Seaborn, NumPy.  
-📈 Visualizaciones: Gráficos comparativos y mapas de calor.
+📚 Librerías: Pandas, Matplotlib, Seaborn, folium.  
+📈 Visualizaciones: Gráficos comparativos y mapas.
 
 ---
 #### 🧾 Resultados Esperados
-📉 Conocer si ha disminuido la tasa de criminalidad en Los Ángeles durante estos años.  
+📉 Conocer las características de la criminalidad en Los Ángeles durante estos años.  
 🚨 Identificar el tipo de crimen que se reporta más veces.  
 📅 Tener una idea de en qué meses hay más incidentes y en qué zonas.
