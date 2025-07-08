@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/2f1d2597-f4b5-4781-9106-7b9e582dd922)
+![Uploading image.png…]()
 
 # 🔍 Análisis Exploratorio de Datos (EDA) sobre crímenes en Los Ángeles desde 2020 🕵️‍♂️🌆  
 
