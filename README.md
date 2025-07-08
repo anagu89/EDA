@@ -1,4 +1,4 @@
-![Captura de pantalla 2025-07-09 003121](https://github.com/user-attachments/assets/2d991f1c-fad7-4d4e-abd0-3aad0d762f04)![Uploading image.png…]()
+![Captura de pantalla 2025-07-09 003121](https://github.com/user-attachments/assets/2d991f1c-fad7-4d4e-abd0-3aad0d762f04)
 
 
 # 🔍 Análisis Exploratorio de Datos (EDA) sobre crímenes en Los Ángeles desde 2020 🕵️‍♂️🌆  
