@@ -4,6 +4,8 @@ import matplotlib.pyplot as plt
 import datetime as dt
 import holidays
 import plotly.express as px
+import plotly.graph_objs as go
+from plotly.offline import iplot
 import folium
 
 df_original = pd.read_csv('C:/Users/AnaGu/Downloads/Crime_Data_from_2020_to_Present.csv')
@@ -53,6 +55,34 @@ df['TIME OCC'] = df['TIME OCC'].str.slice(0, 2) + ':' + df['TIME OCC'].str.slice
 df['TIME OCC'] = df['TIME OCC'].apply(lambda x: dt.datetime.strptime(x, "%H:%M").time())
 
 df = df.rename(columns = {'TIME OCC': 'TIME'})
+
+# GRÁFICA EVOLUCIÓN TEMPORAL 
+
+date_counts = df['DATE'].value_counts().sort_index()  # ordena por fecha
+
+trace = go.Scatter(
+    x = date_counts.index,           # fechas
+    y = date_counts.values,          # frecuencia de registros
+    mode = 'lines',
+    name = 'Número de eventos',
+    marker = dict(color = 'rgba(31, 119, 180, 0.8)'),
+)
+
+layout = dict(title = 'Evolución temporal de los crímenes',
+              xaxis = dict(title = 'Fecha',
+                           range = ['2020-02-01', '2024-12-01'],  # límites del eje X 
+                           tickformat='%Y-%m-%d',
+                           ),
+                           
+              yaxis = dict(title = 'Frecuencia',
+                           range = [100, 1200]  # límites del eje Y)
+                            )
+              )
+
+fig = go.Figure(data = [trace], layout = layout)
+
+plt.savefig("evolucion.png")
+iplot(fig)
 
 # HIPÓTESIS 1
 
